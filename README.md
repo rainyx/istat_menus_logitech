@@ -9,11 +9,13 @@ Add `DYLIB_INSERT_LIBRARIES` env variable to `com.bjango.istatmenus.daemon.plist
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	......
+    ......
+    <key>EnvironmentVariables</key>
     <dict>
 		<key>DYLD_INSERT_LIBRARIES</key>
-		<string>/your/lib/dir/libistat_menus_logitech.dylib</string>
+		<string>/Applications/iStat Menus.app/Contents/Library/libistat_menus_logitech.dylib</string>
     </dict>
+    ......
 </dict>
 </plist>
 ```
