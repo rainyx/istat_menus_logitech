@@ -12,8 +12,8 @@ Add `DYLIB_INSERT_LIBRARIES` env variable to `com.bjango.istatmenus.daemon.plist
     ......
     <key>EnvironmentVariables</key>
     <dict>
-		<key>DYLD_INSERT_LIBRARIES</key>
-		<string>/Applications/iStat Menus.app/Contents/Library/libistat_menus_logitech.dylib</string>
+	<key>DYLD_INSERT_LIBRARIES</key>
+	<string>/you/lib/dir/libistat_menus_logitech.dylib</string>
     </dict>
     ......
 </dict>
