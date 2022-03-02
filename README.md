@@ -1,5 +1,5 @@
 ## Prepare
-Ensure that Logitechg HUB.app already installed on your Mac, we need to use lghub_agent for retrieving the device's state.
+Ensure that Logitech G HUB.app already installed on your Mac, we need to use lghub_agent for retrieving the device's state.
 
 ## How to use
 First, build the Xcode project and put libistat_menus_logitech.dylib to somewhere.
